@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <meta charset = "utf-8" />
+    <title>HTML Document</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "script.js"></script>
+</head>
+<body>
+<h1 align="left"><i>Петров Никита АДБ-18-07</i></h1>
+
+<h2><i>Индивидуальное задание №1 : Проверка равенства чисел</i></h2>
+<form name="form1">
+    <h3> A = <input type="text" name="A" size="4" placeholder="Input A"> </h3>
+    <h3> B = <input type="text" name="B" size="4" placeholder="Input B"></h3>     
+    <input type="button" value="Проверка равенства" onClick="equal()" />     
+    <h3>Вывод = <output type="text" name="q" size="20" placeholder="Output"></h3>
+    </form>
+
+    <h2><i>Индивидуальное задание №2:</i></h2>
+    <h2><i>Взаимодействие с пользователем</i></h2>
+    <form name="form2">
+        <h3>Admin:</h3>
+        <input type="button" value="Вывести" onClick="Show()" />
+    </form>
+
+    <h2><i>Индивидуальное задание №3:</i></h2></font>
+    <h2><i>Запрос возраста</i></h2></font>
+    <form name="form3">
+        <h3>Возраст:</h3>
+        <input type="button" value="Вывести" onClick="Age()" />      
+    </form>
+    <h2><i>Индивидуальное задание №4:</i></h2>
+    <h2><i> Информация о создателе сайта </i></h2>
+        <form name="form4">
+            <img src="kratosauthor.JPG" alt="Photo" width="420" 
+            height="550">
+            <h3><i> ФИО: Петров Никита Викторович<br>
+            Возраст: 21 лет<br>
+            Пол: Мужской<br>
+            Город: Москва<br>
+            <br></i></h3>
+            <br> <br>
+        </form>
+    <h2><i>Анкета: Индивидуальное задание №5</i></h2>
+    <h2><i>Расскажите о себе!</i></h2>
+    <h3> Как вас зовут? <input type="text" name="n" size="20" placeholder="Фамилия Имя" required></h3>
+    <h3><input type="checkbox" id="one" onClick="fun1()"> -  Студент </h3>
+    <h3><input type="checkbox" id="one" onClick="fun1()"> -  Работающий </h3>
+    <h3><input type="checkbox" id="one" onClick="fun1()"> -  Неработающий </h3>
+    <h3> Укажите свой возраст <input type="number" name="m" size="10" placeholder="Возраст"required min="1" max = "100"></h3>
+    <h3> Оставьте свой комментарий <input type="text" name="t" size="30" placeholder="Ваш комментарий" required></h3>
+    <input type="button" value="Отправить на сервер" onClick="Com()">
+</body>
+</html>

@@ -1,0 +1,31 @@
+h1
+    {
+        color: solid black;
+        Background-color: whitesmoke;
+        border-right-width: thin;
+        border: 5px solid black;
+        font-size:50pt;
+        text-shadow: 2px 2px 2px black, 0 0 1em whitesmoke;
+    }
+    h3
+    {
+        color: solid black;
+        font-size: x-large;
+    }  
+h2
+    {
+        color: solid black; 
+        font-size: xx-large;
+    }
+
+p
+{
+    font-size:xx-large;
+    color:Solid black;
+}
+html
+{   
+    
+    background: url(kratosimage.jpg);
+    background-size:cover;
+}
