@@ -29,3 +29,9 @@ html
     background: url(kratosimage.jpg);
     background-size:cover;
 }
+h4:hover
+    { 
+        font-size:60pt;
+        color: solid black;
+        text-shadow: 1px 1px 2px rgb(255, 0, 0), 0 0 1em whitesmoke;
+    }
